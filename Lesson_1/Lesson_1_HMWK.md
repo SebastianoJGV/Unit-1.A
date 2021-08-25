@@ -11,7 +11,7 @@ List - list, somewhat akin to an array of strings
 
 ## 3. What are the four CTS
 
-Decomposition
-Pattern Recognition
-Abstraction
-Algorithmic Thinking
+Decomposition,
+Pattern Recognition,
+Abstraction,
+Algorithmic Thinking,
