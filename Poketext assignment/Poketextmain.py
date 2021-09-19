@@ -1,6 +1,7 @@
 #Description : Text based pokemon game with 3 base types of fire water and grass
 #Date : 2021-08-16 - today
 #Author : Sebastiano GV
+#
 
 import time
 import sys
@@ -134,12 +135,12 @@ def player1_turn():
             if miss_chance!=1:
                 delay_print(str(player1.name)+" uses " + str(p1_command)+" against "+str(player2.name)+ ". ")
                 if player2.element == player1.strong:
-                    delay_print(str(p1_command) +"is super effective! ")
+                    delay_print(str(p1_command) +" is super effective! ")
                     attack_power = round(player1.move_power.get(p1_command)*1.5)
                     delay_print(str(player2.name) + " takes " + str(attack_power) + "damage! \n")
                     player2.hp -= attack_power
                 elif player2.element == player1.weakness:
-                    delay_print("It is not very effective...")
+                    delay_print(". It is not very effective...")
                     attack_power = round(player1.move_power.get(p1_command)*0.5)
                     delay_print(str(player2.name)+ " takes " + str(attack_power) + " damage... \n")
                     player2.hp -= attack_power
@@ -173,7 +174,7 @@ def player2_turn():
                     delay_print(str(player1.name) + " takes " + str(attack_power) + " damage! \n")
                     player1.hp -= attack_power
                 elif player1.element == player2.weakness:
-                    delay_print("It is not very effective...")
+                    delay_print(". It is not very effective...")
                     attack_power = round(player2.move_power.get(p2_command)*0.5)
                     delay_print(str(player1.name) + " takes " + str(attack_power) + " damage... \n")
                     player1.hp -= attack_power
