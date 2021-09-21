@@ -1,1 +1,2 @@
 September 19th : Changed some small formatting errors, started working on the cpu actions
+September 20tt : Finsihed the CPU if else ladder, going to replace with switch case statements, still needs playtesting, TODO// music implementation, ascii characters?
