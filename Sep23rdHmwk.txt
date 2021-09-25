@@ -1,0 +1,55 @@
+Task 1: Prototypes and client interaction
+
+
+🤔 You have started developing a game for the local game shop owner. Consider the process so far and the next three weeks of development and testing. Create a file in your repository called task_1.md and solve the following questions. 
+
+Question 1: Do you think it is necessary to involve the show owner during the process along the three weeks? Or alternatively, is it better to involve him only when the product is finished? Explain your answer
+
+Yes, it is definitely necessary as you could end up going off course, and developing something the customer doesnt approve of. this would lead to massive increases in how long it would take to create a game like this.
+
+Watch this video about Minimal Viable Products
+Question 2: Do you think it is necessary to create MVPs for your game? If so, what would some of the MPV look like and what do you expect to obtain from the client?
+
+Yes, using MVPs for a game and for code in general make sense. Some basic MPVs would be the base game, database entries, AI commands, etc. These would be other optional components on top of the base game exe.
+
+Watch this video about “bad doors”
+Question 3: Do you see similarities between the Human-Centered Design cycle presented in the video and the Design Cycle we use for developing software? Explain.
+
+Software needs to be readable, simple to understand. UI design for applications is its own massive industry with some apps like AVID sibelius failing hard in the UI design front. Human centered Design is a focal part of any product.
+
+Question 4: What are the simple principles for human-centered design presented in the video? Write a sentence with the definition of each.
+
+Discoverability:
+The ability to look at something, and be able to understand the function of what you are looking at with ease.
+
+Feadback:
+When you input something, there is a visible or audible output. Eg. Door Opening, Resistance on a plane throttle or yoke, Hearing the gear change in a car.
+
+Question 5. Consider your game. Think about ways you can improve the Players’ Experience using Human-centered design. Write below your ideas:
+
+General Text Readability, currently the game is a wall of text, so that is the main thing for me to fix at the moment
+
+Programming Task 1: Create a file in your repository with name programming_task_1.md and include the solution to the problem below:
+Ask the user for  2 numbers, A and B, Output TRUE if one of them is 10 or if their sum is 10.
+
+Examples
+Makes10(9, 10) → TRUE
+Makes10(9, 9) → FALSE
+Makes10(1, 9) → TRUE
+
+
+[HL]  Programming Task 2: Create a file in your repository with name programming_task_2.md and include the solution to the problem below:
+Strange Numbers: Given a number as a String N. Multiply all of its digits, and repeat the same with the product obtained till the product consists of only one digit. Output the number of steps taken to do so. 
+
+Example: N = 39
+Step 1: 3 * 9 = 27
+Step 2: 2 * 7 = 14
+Step 3: 1 * 4 = 4
+
+Since it took us 3 steps to reach a number with only 1 digit, the output is 3.
+
+
+[HL]  Programming Task 3: Create a file in your repository with name programming_task_3.md and include the solution to the problem below:
+Using the program you created in Task 2, create a program that searches automatically for strange numbers. Can you find a number that will take 10 steps or more? 
+
+
