@@ -7,3 +7,5 @@ def is20(a, b):
    return result
 ```
 
+![](image_2021-10-05_140308.png)
+
