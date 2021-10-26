@@ -3,6 +3,7 @@ Created on Sep. 17, 2021
 
 @author: sebas
 '''
+'''.py
 import math
 
 #mysterybox1 reverses a string, and if true makes is all lower case
@@ -45,3 +46,5 @@ def mysterybox4(inp):
     return print(f"{sum(boom)/len(boom)}, {boom}")
 x = [5, 6, 3, 8, 1, 7, 9]
 mysterybox4(x)
+'''
+
